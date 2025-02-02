@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    background: #1e1e1e;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

@@ -1,0 +1,46 @@
+.follow-card{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+.follow-card-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.follow-card-info{
+    display: flex;
+    flex-direction: column;
+}
+.follow-card-username{
+    opacity: .6;
+}
+.follow-card-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.follow-card-button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+.follow-card-button:hover{
+    background-color: #2a9acd;
+    color: white;
+}
+.follow-card-button.is-following{
+    border: 2px solid #5cffbe;
+    color: #5cffbe;
+    background: none;
+}
+.follow-card-button.is-following:hover{
+    color: white;
+    background:#5cffbe;
+}
