@@ -24,7 +24,10 @@ export function XFollowCard({userName, name}) {
             </div>
         </header>
             <aside>
-                <button className={buttonClassName} onClick={handleClic}>{text}</button>
+                <button className={buttonClassName} onClick={handleClic}>
+                    <span className='button-follow'>{text}</span>
+                    <span className='button-unfollow'>Unfollow</span>
+                </button>
             </aside>
     </article>
     );
